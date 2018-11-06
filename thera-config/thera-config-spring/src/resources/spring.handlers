@@ -1,0 +1,2 @@
+http\://thera.org/schema/thera=org.thera.config.spring.scheme.TheraNamespaceHandler
+http\://code.thera.com/schema/thera=org.thera.config.spring.scheme.TheraNamespaceHandler
