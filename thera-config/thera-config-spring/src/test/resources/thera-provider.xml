@@ -25,7 +25,7 @@
     <!--<thera:application name="dubbo-provider"/>-->
 
     <!-- 连接注册中心配置 -->
-    <thera:provider register="123"/>
+    <thera:provider register="123" id="sada"/>
 
     <!--  <thera:protocol name="dubbo" port="12345"/>
 
