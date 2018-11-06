@@ -19,10 +19,14 @@ public class TheraBeanDefinitionParser implements BeanDefinitionParser {
         this.required = required;
     }
 
-    public BeanDefinition parse(Element element, ParserContext parserContext) {
+    private static BeanDefinition parse(Element element, ParserContext parserContext, Class<?> beanClass, boolean required) {
         RootBeanDefinition beanDefinition = new RootBeanDefinition();
         String registry = element.getAttribute("registry");
         beanDefinition.getPropertyValues().addPropertyValue(registry, registry);
         return beanDefinition;
+    }
+
+    public BeanDefinition parse(Element element, ParserContext parserContext) {
+        return parse(element, parserContext, beanClass, required);
     }
 }
