@@ -22,13 +22,13 @@
     ">
 
     <!-- 当前应用信息配置 -->
-    <thera:application name="dubbo-provider"/>
+    <!--<thera:application name="dubbo-provider"/>-->
 
     <!-- 连接注册中心配置 -->
     <thera:registry address="N/A"/>
 
-    <thera:protocol name="dubbo" port="12345"/>
+    <!--  <thera:protocol name="dubbo" port="12345"/>
 
-    <thera:annotation package="org.apache.dubbo.config.spring.annotation.provider"/>
+      <thera:annotation package="org.apache.dubbo.config.spring.annotation.provider"/>-->
 
 </beans>

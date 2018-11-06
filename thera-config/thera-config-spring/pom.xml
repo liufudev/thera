@@ -16,6 +16,16 @@
             <artifactId>spring-beans</artifactId>
             <version>4.3.16.RELEASE</version>
         </dependency>
+        <dependency>
+            <groupId>org.lf.learn</groupId>
+            <artifactId>thera-config-api</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>4.3.16.RELEASE</version>
+        </dependency>
     </dependencies>
 
 
