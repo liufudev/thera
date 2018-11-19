@@ -21,10 +21,11 @@ public class TheraBeanDefinitionParser implements BeanDefinitionParser {
 
     private static BeanDefinition parse(Element element, ParserContext parserContext, Class<?> beanClass, boolean required) {
         RootBeanDefinition beanDefinition = new RootBeanDefinition();
-        String registry = element.getAttribute("registry");
-        beanDefinition.getPropertyValues().addPropertyValue("registry", registry);
+        String registry = element.getAttribute("register");
+        beanDefinition.getPropertyValues().addPropertyValue("register", registry);
         String id = element.getAttribute("id");
         beanDefinition.getPropertyValues().addPropertyValue("name", "name");
+        beanDefinition.getPropertyValues().addPropertyValue("id", id);
         beanDefinition.setBeanClass(beanClass);
         parserContext.getRegistry().registerBeanDefinition(id, beanDefinition);
 

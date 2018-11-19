@@ -8,7 +8,8 @@ import lombok.Data;
 @Data
 public class ProviderConfig {
 
-    private String registry;
+    private String register;
     private String name;
+    private String id;
 
 }
