@@ -12,6 +12,7 @@
         <module>thera-test</module>
         <module>thera-common</module>
         <module>thera-config</module>
+        <module>thera-dependencies-bom</module>
     </modules>
     <properties>
         <!-- Test libs -->
@@ -52,6 +53,18 @@
         <checkstyle.skip>true</checkstyle.skip>
         <rat.skip>true</rat.skip>
     </properties>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.lf.learn</groupId>
+                <artifactId>thera-dependencies-bom</artifactId>
+                <version>1.0-SNAPSHOT</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
     <dependencies>
         <dependency>
             <groupId>junit</groupId>

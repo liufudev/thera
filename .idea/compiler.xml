@@ -9,6 +9,7 @@
         <module name="thera-common" />
         <module name="thera-config-api" />
         <module name="thera-config-spring" />
+        <module name="thera-dependencies-bom" />
         <module name="thera-test" />
       </profile>
     </annotationProcessing>
