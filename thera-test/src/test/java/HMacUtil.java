@@ -67,5 +67,6 @@ public class HMacUtil {
         //
         //app_key：nwF8kmUUfcepWDrn
         System.out.println("huaweic-iflow: " + sha256("12345678" + timestamp, "nwF8kmUUfcepWDrn"));
+        System.out.println("sdsd");
     }
 }
