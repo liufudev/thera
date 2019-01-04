@@ -18,15 +18,3 @@ encodings.xml
 .idea/libraries/
 .idea/modules.xml
 .idea/vcs.xml
-src/
-thera-common/src/main/resources/
-thera-common/thera-common.iml
-thera-config/src/
-thera-config/thera-config-api/thera-config-api.iml
-thera-config/thera-config-spring/thera-config-spring.iml
-thera-config/thera-config.iml
-thera-dependencies-bom/src/
-thera-dependencies-bom/thera-dependencies-bom.iml
-thera-test/src/main/resources/
-thera-test/thera-test.iml
-thera.iml
